@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/show_Toast"
+        app:showAsAction="always"
+        android:title="Zeige Toast" />
+
+    <item
+        android:id="@+id/aendere_text"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/icon_edit"
+        android:title="Text ändern" />
+
+    <item
+        android:id="@+id/show_snackbar"
+        app:showAsAction="ifRoom"
+        android:title="Zeige Snackbar" />
+</menu>
